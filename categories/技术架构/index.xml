@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术架构 on 负责和大饼的博客</title>
+    <link>http://www.ebankp.com/categories/%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84/</link>
+    <description>Recent content in 技术架构 on 负责和大饼的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 24 Jul 2019 22:51:02 +0800</lastBuildDate>
+    
+	<atom:link href="http://www.ebankp.com/categories/%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>后端架构师技术图谱</title>
+      <link>http://www.ebankp.com/2019/architect_awesome/</link>
+      <pubDate>Wed, 24 Jul 2019 22:51:02 +0800</pubDate>
+      
+      <guid>http://www.ebankp.com/2019/architect_awesome/</guid>
+      <description>《后端架构师技术图谱》 推荐: 《Java技术书籍大全》 - awesome-java-books 从初级开发者到资深架构师，看这些书就够了 数据结构 队列 集合 链表、数组 字典、关联数组 栈 树</description>
+    </item>
+    
+  </channel>
+</rss>

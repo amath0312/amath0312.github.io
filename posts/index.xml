@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 负责和大饼的博客</title>
+    <link>http://www.ebankp.com/posts/</link>
+    <description>Recent content in Posts on 负责和大饼的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 24 Jul 2019 22:51:02 +0800</lastBuildDate>
+    
+	<atom:link href="http://www.ebankp.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>后端架构师技术图谱</title>
+      <link>http://www.ebankp.com/2019/architect_awesome/</link>
+      <pubDate>Wed, 24 Jul 2019 22:51:02 +0800</pubDate>
+      
+      <guid>http://www.ebankp.com/2019/architect_awesome/</guid>
+      <description>《后端架构师技术图谱》 推荐: 《Java技术书籍大全》 - awesome-java-books 从初级开发者到资深架构师，看这些书就够了 数据结构 队列 集合 链表、数组 字典、关联数组 栈 树</description>
+    </item>
+    
+    <item>
+      <title>Hugo 主题 Nuo 文章样式预览</title>
+      <link>http://www.ebankp.com/2019/hugo_even_preview/</link>
+      <pubDate>Wed, 24 Jul 2019 22:41:06 +0800</pubDate>
+      
+      <guid>http://www.ebankp.com/2019/hugo_even_preview/</guid>
+      <description>Copy from 《Hugo 主题 Nuo 文章样式预览》 这篇文章集中说明主题所支持的 Markdown 语法和 Hugo Shortcodes 插件，你也可以在这里预览到他们的样子。如果你不喜欢某些样式，可以去</description>
+    </item>
+    
+    <item>
+      <title>惯例，Hello World</title>
+      <link>http://www.ebankp.com/2019/first_blog/</link>
+      <pubDate>Wed, 24 Jul 2019 22:34:51 +0800</pubDate>
+      
+      <guid>http://www.ebankp.com/2019/first_blog/</guid>
+      <description>hugo还是挺好用的，用不上一小时就搭起来了。</description>
+    </item>
+    
+  </channel>
+</rss>

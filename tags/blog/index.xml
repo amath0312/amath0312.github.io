@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on 负责和大饼的博客</title>
+    <link>http://www.ebankp.com/tags/blog/</link>
+    <description>Recent content in Blog on 负责和大饼的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 24 Jul 2019 22:34:51 +0800</lastBuildDate>
+    
+	<atom:link href="http://www.ebankp.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>惯例，Hello World</title>
+      <link>http://www.ebankp.com/2019/first_blog/</link>
+      <pubDate>Wed, 24 Jul 2019 22:34:51 +0800</pubDate>
+      
+      <guid>http://www.ebankp.com/2019/first_blog/</guid>
+      <description>hugo还是挺好用的，用不上一小时就搭起来了。</description>
+    </item>
+    
+  </channel>
+</rss>

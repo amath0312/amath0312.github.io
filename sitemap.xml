@@ -2,7 +2,9 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://amath0312.github.io/categories/</loc>
+      <loc>http://www.ebankp.com/categories/</loc>
+      
+      <lastmod>2019-07-24T22:51:02+08:00</lastmod>
       
       
       
@@ -12,7 +14,9 @@
     </url>
   
     <url>
-      <loc>https://amath0312.github.io/tags/</loc>
+      <loc>http://www.ebankp.com/posts/</loc>
+      
+      <lastmod>2019-07-24T22:51:02+08:00</lastmod>
       
       
       
@@ -22,11 +26,161 @@
     </url>
   
     <url>
-      <loc>https://amath0312.github.io/</loc>
+      <loc>http://www.ebankp.com/tags/</loc>
+      
+      <lastmod>2019-07-24T22:51:02+08:00</lastmod>
       
       
       
       <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://www.ebankp.com/tags/%E5%90%8E%E7%AB%AF/</loc>
+      
+      <lastmod>2019-07-24T22:51:02+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://www.ebankp.com/2019/architect_awesome/</loc>
+      
+      <lastmod>2019-07-24T22:51:02+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://www.ebankp.com/categories/%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84/</loc>
+      
+      <lastmod>2019-07-24T22:51:02+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://www.ebankp.com/tags/%E6%9E%B6%E6%9E%84/</loc>
+      
+      <lastmod>2019-07-24T22:51:02+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://www.ebankp.com/</loc>
+      
+      <lastmod>2019-07-24T22:51:02+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://www.ebankp.com/tags/%E8%BD%AC%E8%BD%BD/</loc>
+      
+      <lastmod>2019-07-24T22:51:02+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://www.ebankp.com/categories/blog/</loc>
+      
+      <lastmod>2019-07-24T22:41:06+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://www.ebankp.com/tags/hugo/</loc>
+      
+      <lastmod>2019-07-24T22:41:06+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://www.ebankp.com/2019/hugo_even_preview/</loc>
+      
+      <lastmod>2019-07-24T22:41:06+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://www.ebankp.com/tags/%E5%BB%BA%E7%AB%99/</loc>
+      
+      <lastmod>2019-07-24T22:41:06+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://www.ebankp.com/tags/blog/</loc>
+      
+      <lastmod>2019-07-24T22:34:51+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://www.ebankp.com/2019/first_blog/</loc>
+      
+      <lastmod>2019-07-24T22:34:51+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://www.ebankp.com/about/</loc>
+      
+      <lastmod>2019-07-23T22:10:22+08:00</lastmod>
+      
+      
       
       
     </url>
