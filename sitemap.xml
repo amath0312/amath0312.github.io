@@ -4,19 +4,42 @@
   
   <url>
     <loc>http://www.ebankp.com/categories/</loc>
-    <lastmod>2019-07-24T22:51:02+08:00</lastmod>
+    <lastmod>2019-07-24T23:27:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.ebankp.com/posts/</loc>
-    <lastmod>2019-07-24T22:51:02+08:00</lastmod>
+    <lastmod>2019-07-24T23:27:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.ebankp.com/tags/</loc>
-    <lastmod>2019-07-24T22:51:02+08:00</lastmod>
+    <lastmod>2019-07-24T23:27:02+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ebankp.com/tags/git/</loc>
+    <lastmod>2019-07-24T23:27:02+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ebankp.com/2019/git_muilt_sshkey/</loc>
+    <lastmod>2019-07-24T23:27:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ebankp.com/categories/%E5%BA%94%E7%9F%A5%E5%BA%94%E4%BC%9A/</loc>
+    <lastmod>2019-07-24T23:27:02+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ebankp.com/</loc>
+    <lastmod>2019-07-24T23:27:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -39,12 +62,6 @@
   
   <url>
     <loc>http://www.ebankp.com/tags/%E6%9E%B6%E6%9E%84/</loc>
-    <lastmod>2019-07-24T22:51:02+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ebankp.com/</loc>
     <lastmod>2019-07-24T22:51:02+08:00</lastmod>
     <priority>0</priority>
   </url>

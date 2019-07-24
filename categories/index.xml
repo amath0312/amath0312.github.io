@@ -6,10 +6,19 @@
     <description>Recent content in Categories on 负责和大饼的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 24 Jul 2019 22:51:02 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2019 23:27:02 +0800</lastBuildDate>
     
 	<atom:link href="http://www.ebankp.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>应知应会</title>
+      <link>http://www.ebankp.com/categories/%E5%BA%94%E7%9F%A5%E5%BA%94%E4%BC%9A/</link>
+      <pubDate>Wed, 24 Jul 2019 23:27:02 +0800</pubDate>
+      
+      <guid>http://www.ebankp.com/categories/%E5%BA%94%E7%9F%A5%E5%BA%94%E4%BC%9A/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>技术架构</title>

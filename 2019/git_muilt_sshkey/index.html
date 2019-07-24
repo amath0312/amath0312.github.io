@@ -7,20 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>关于 | 负责和大饼的博客</title>
-    <meta property="og:title" content="关于 - 负责和大饼的博客">
+    <title>同一台电脑同时配置多个ssh key | 负责和大饼的博客</title>
+    <meta property="og:title" content="同一台电脑同时配置多个ssh key - 负责和大饼的博客">
     <meta property="og:type" content="article">
         
-    <meta property="article:published_time" content="2019-07-23T22:10:22&#43;08:00">
+    <meta property="article:published_time" content="2019-07-24T23:27:02&#43;08:00">
         
         
-    <meta property="article:modified_time" content="2019-07-23T22:10:22&#43;08:00">
+    <meta property="article:modified_time" content="2019-07-24T23:27:02&#43;08:00">
         
     <meta name="Keywords" content="java, python, agile">
-    <meta name="description" content="关于">
+    <meta name="description" content="同一台电脑同时配置多个ssh key">
         
     <meta name="author" content="">
-    <meta property="og:url" content="http://www.ebankp.com/about/">
+    <meta property="og:url" content="http://www.ebankp.com/2019/git_muilt_sshkey/">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="/css/normalize.css">
@@ -59,7 +59,7 @@
                     
                     <a  href="http://www.ebankp.com/tags/" title="Tags">Tags</a>
                     
-                    <a class="current" href="http://www.ebankp.com/about/" title="About">About</a>
+                    <a  href="http://www.ebankp.com/about/" title="About">About</a>
                     
                 </nav>
             </div>
@@ -76,16 +76,95 @@
                 <div class="res-cons">
                     <article class="post">
                         <header>
-                            <h1 class="post-title">关于</h1>
+                            <h1 class="post-title">同一台电脑同时配置多个ssh key</h1>
                         </header>
                         <date class="post-meta meta-date">
-                            2019年7月23日
+                            2019年7月24日
                         </date>
+                        
+                        <div class="post-meta">
+                            <span>|</span>
+                            
+                                <span class="meta-category"><a href="http://www.ebankp.com/categories/%E5%BA%94%E7%9F%A5%E5%BA%94%E4%BC%9A">应知应会</a></span>
+                            
+                        </div>
                         
                         
                         
                         <div class="post-content">
-                            <p>从业近十年，写不好代码，但挖的一手好坑🙄</p>
+                            
+
+<h1 id="同时配置多个ssh-keys">同时配置多个ssh keys</h1>
+
+<blockquote>
+<p>同一台电脑，访问码云时，需要多个ssh keys以区分身份。</p>
+
+<p>如：work@gitee.com用于工作，me@gitee.com用于个人开发。</p>
+</blockquote>
+
+<h2 id="生成ssh-key">生成ssh key</h2>
+
+<ol>
+<li>通过命令分别为工作和个人生成两个ssh key：<code>ssh-keygen -t rsa -C &quot;your-email-address&quot;</code></li>
+<li>生成的ssh-key名称分别为id_rsa_work、id_rsa_me，均保存于~/.ssh/目录下<br /></li>
+</ol>
+
+<h2 id="在码云配置ssh公钥">在码云配置ssh公钥</h2>
+
+<ol>
+<li>复制~/.ssh/id_rsa_work.pub内容。</li>
+<li>登录work@gitee.com账号，在设置—安全设置—SSH公钥创建公钥信息。</li>
+<li>同样方式操作me@gitee.com账号。</li>
+</ol>
+
+<h2 id="本机sshkey配置">本机sshkey配置</h2>
+
+<ol>
+<li>在~/.ssh/目录下创建config文件</li>
+<li>配置内容如下：</li>
+</ol>
+
+<pre><code class="language-shell"># work usage
+Host gitee.work
+    HostName gitee.com
+    User work@gitee.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_rsa_work
+
+# self usage
+Host gitee.me
+    HostName gitee.com
+    User me@gitee.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_rsa_me
+</code></pre>
+
+<h2 id="git项目配置">GIT项目配置</h2>
+
+<ol>
+<li>以work为例，进入项目目录</li>
+<li>设置git环境变量：</li>
+</ol>
+
+<pre><code class="language-shell">git config user.name work
+git config user.email work@gitee.com
+</code></pre>
+
+<ol>
+<li>从仓库clone源码（注意：原先的_gitee.com_需替换成gitee.work，即config中配置的Host）：</li>
+</ol>
+
+<pre><code class="language-shell">git clone git@gitee.work:work/awesome.git
+</code></pre>
+
+<ol>
+<li>或从远程仓库拉取代码：</li>
+</ol>
+
+<pre><code class="language-shell">git init
+git remote add origin git@gitee.work:work/awesome.git
+git pull origin master
+</code></pre>
 
                         </div>
 
@@ -94,10 +173,29 @@
 
                         
 
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/2019/architect_awesome/">后端架构师技术图谱</a></li>
+        
+        <li><a href="/2019/hugo_even_preview/">Hugo 主题 Nuo 文章样式预览</a></li>
+        
+        <li><a href="/2019/first_blog/">惯例，Hello World</a></li>
+        
+        <li><a href="/about/">关于</a></li>
+        
+    </ul>
+</div>
+
 
                         <div class="post-meta meta-tags">
                             
-                            没有标签
+                            <ul class="clearfix">
+                                
+                                <li><a href="http://www.ebankp.com/tags/git">git</a></li>
+                                
+                            </ul>
                             
                         </div>
                     </article>

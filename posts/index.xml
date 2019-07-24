@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 负责和大饼的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 24 Jul 2019 22:51:02 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2019 23:27:02 +0800</lastBuildDate>
     
 	<atom:link href="http://www.ebankp.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>同一台电脑同时配置多个ssh key</title>
+      <link>http://www.ebankp.com/2019/git_muilt_sshkey/</link>
+      <pubDate>Wed, 24 Jul 2019 23:27:02 +0800</pubDate>
+      
+      <guid>http://www.ebankp.com/2019/git_muilt_sshkey/</guid>
+      <description>同时配置多个ssh keys 同一台电脑，访问码云时，需要多个ssh keys以区分身份。 如：work@gitee.com用于工作，me@gitee.c</description>
+    </item>
     
     <item>
       <title>后端架构师技术图谱</title>
